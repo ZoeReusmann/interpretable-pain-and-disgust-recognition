@@ -1,0 +1,23 @@
+# Kern (Versionen aus der Trainingsumgebung, pip freeze)
+torch==2.2.2
+torchvision==0.17.2
+numpy==1.26.4
+pillow==12.0.0
+
+# CNN
+facenet-pytorch
+opencv-python
+tensorboard
+
+# Datenauswertung / Plots
+pandas
+scipy
+scikit-learn
+matplotlib
+seaborn
+tqdm
+openpyxl
+
+# DeepProbLog / ILP: separat installieren, siehe README
+#   pip install deepproblog==2.0.6 problog==2.2.9
+#   FastLAS: eigenes Binary, siehe ILP/README.md

@@ -1,0 +1,5 @@
+TARGET_AUS = ["AU4", "AU6", "AU9", "AU17", "AU25", "AU26"]
+N_AUS = len(TARGET_AUS)
+N_THRESHOLDS = 5 # für die Schwellen >0, >1, >2...>4
+IMAGE_SIZE = 224
+DEFAULT_THRESHOLD = 2

@@ -1,0 +1,67 @@
+# Daten
+data/
+!ILP/data/
+outputs/
+*.pt
+*.pth
+*.h5
+*.ckpt
+*.npy
+
+# Python
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+._*
+
+# FastLAS
+ILP/FastLAS/
+
+# DPL
+deepproblog_examples/
+
+# --- aufgeräumt: zusätzliche Ignores ---
+# Editor / OS
+~$*
+.fuse_hidden*
+
+# Trainingsartefakte (bereits committete bleiben auf diesem Branch erhalten)
+*.dplog
+checkpoints/
+lopo_checkpoints/
+snapshots/
+runs/
+
+# Logs
+*heartbeat*.log
+crash_*.log
+run_console.log
+
+# lokale venv
+.venv*/
+
+# --- öffentliches repo: keine daten, gewichte oder ergebnisse ---
+results/
+runs/
+*.log
+*.dplog
+*.xlsx
+ILP/data/
+ILP/results/
+DeepProbLog/facts/
+DeepProbLog/results/
+DeepProbLog/lopo_checkpoints/
+.venv*/
+
+# ergebnisse, die skripte selbst erzeugen
+*.csv
+ILP/learned_rules/
+ILP/oracle/*_rules.txt
+
+# generierte programme (fakten + regeln), enthalten daten
+DeepProbLog/models/*_full.pl
